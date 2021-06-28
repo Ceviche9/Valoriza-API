@@ -29,6 +29,7 @@ class CreateUserService {
        
         if(UserAlreadyExists) {
 
+            console.log('Cheguei no erro');
             throw new Error('Erro: User already exists');
         }
 
