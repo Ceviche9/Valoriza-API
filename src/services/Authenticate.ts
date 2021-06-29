@@ -2,7 +2,6 @@ import { getCustomRepository } from "typeorm";
 import { UsersRepositories } from "../repositories/UsersRepositories";
 import {compare} from 'bcryptjs';
 import {sign} from 'jsonwebtoken';
-import { Subject } from "typeorm/persistence/Subject";
 
 interface AuthenticateRequest {
 
