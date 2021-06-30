@@ -20,24 +20,18 @@ export function ensureAuthenticate(req: Request, res: Response, next: NextFuncti
 
    //Removing the 'Bearer'
    const [ , token] = authToken.split(' ');
-   console.log( token);
 
    //Verify if the token is valid 
 
    try{
 
-    console.log("Cheguei no try");
-
-    const { sub } = verify(token, "4f93ac9d10cb751b8c9c646bc9dbccb9") as Payload;
-
-    console.log('Passei no sub');
+    const { sub } = verify(token, "243hjjSKdhlkkljdk4844r3erefdfdf") as Payload;
 
     req.user_id = sub;
-
   
     }  catch(e) {
 
-    console.log('Caí no catch');
+    console.log(e);
     return res.status(401).json({Erro: "Error"});
 
    }
