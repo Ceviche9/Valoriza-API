@@ -28,7 +28,7 @@ export function ensureAuthenticate(req: Request, res: Response, next: NextFuncti
 
     console.log("Cheguei no try");
 
-    const { sub } = verify(token, "243hjjSKdhlkkljdk4844r3erefdfdf") as Payload;
+    const { sub } = verify(token, "4f93ac9d10cb751b8c9c646bc9dbccb9") as Payload;
 
     console.log('Passei no sub');
 
