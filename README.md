@@ -22,6 +22,22 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Valoriza é uma plataforma para promover o reconhecimento entre companheiros de equipe.
 
+## Funcionalidades 📌
+
+- Registo de usuários 
+    - [x] Não é permitido registar mais do que um usuários com o mesmo endereço de email.
+    - [x] Não é permitido registar o usuários sem endereço de email.
+
+- Registo de Etiquetas
+    - [x] Não é permitido registar mais do que uma etiqueta com o mesmo nome
+    - [x] Não é permitido registar o utilizador sem nome
+    - [x] Não é permitido registar uma etiqueta para utilizadores não administradores
+
+- Registo de elogios
+    - [x] Não é permitido a um utilizador registar um elogio para si.
+    - [x] Não é permitido registar um elogio para utilizadores inválidos.
+    - [x] O utilizador deve ser autenticado na aplicação.
+
 ## 🚀 Como executar
 
 - Clone o repositório
