@@ -9,46 +9,46 @@
 ![preview](https://user-images.githubusercontent.com/83431609/123527877-8bf03080-d6b9-11eb-9fa8-0a51050d957c.png)
 
 
-## ✨ Tecnologias
+## ✨ Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
 - [Node.js](https://nodejs.org/en/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
 - [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)
 
-## 💻 Projeto
+## 💻 Project
 
-Valoriza é uma plataforma para promover o reconhecimento entre companheiros de equipe.
+Valoriza is a platform to promote recognition among teammates.
 
-## Funcionalidades 📌
+## Features 📌
 
-- Registo de usuários 
-    - [x] Não é permitido registar mais do que um usuários com o mesmo endereço de email.
-    - [x] Não é permitido registar o usuários sem endereço de email.
+- Registering users 
+    - [x] It is not allowed to register more than one user with the same email address.
+    - [x] It is not allowed to register the users without email address.
 
-- Registo de Etiquetas
-    - [x] Não é permitido registar mais do que uma etiqueta com o mesmo nome
-    - [x] Não é permitido registar o utilizador sem nome
-    - [x] Não é permitido registar uma etiqueta para utilizadores não administradores
+- Label Registration
+    - [x] Not allowed to register more than one tag with the same name
+    - [x] It is not allowed to register the user without name
+    - [x] It is not allowed to register a tag for non-admin users
 
-- Registo de elogios
-    - [x] Não é permitido a um utilizador registar um elogio para si.
-    - [x] Não é permitido registar um elogio para utilizadores inválidos.
-    - [x] O utilizador deve ser autenticado na aplicação.
+- Registering Praises
+    - [x] A user is not allowed to register a praise for you
+    - [x] It is not allowed to register a praise for invalid users.
+    - [x] The user must be authenticated in the application.
 
-## 🚀 Como executar
+## 🚀 How to run
 
-- Clone o repositório
-- Rode `yarn` para baixar as dependências
-- Rode `yarn typeorm migration:run` para criar as tabelas do banco de dados.
-- Rode o `yarn dev` para iniciar a aplicação.
+- Clone the repository
+- Run `yarn` to download the dependencies
+- Run `yarn typeorm migration:run` to create the database tables.
+- Run `yarn dev` to start the application.
 
-Por fim, a aplicação estará disponível em `http://localhost:3000`
+Finally, the application will be available at `http://localhost:3000`
 
-## 📄 Licença
+## 📄 License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under the MIT license. See the file [LICENSE](LICENSE.md) for more details.
 
 ---
